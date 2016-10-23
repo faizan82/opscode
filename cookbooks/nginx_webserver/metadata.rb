@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures nginx_webserver'
 long_description 'Installs/Configures nginx_webserver'
-version '0.1.1'
+version '0.1.7'
 
 depends 'selinux', '~> 0.9'
 

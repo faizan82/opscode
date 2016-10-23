@@ -1,0 +1,23 @@
+{
+  "name": "webserver",
+  "description": "Nginx webserver",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[nginx_webserver]"
+  ],
+  "env_run_lists": {
+    "dev": [
+      "recipe[nginx_webserver::config-dev]"
+    ],
+    "qa": [
+      "recipe[nginx_webserver::config-qa]"
+    ]
+  }
+}

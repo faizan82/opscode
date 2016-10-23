@@ -4,7 +4,10 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures openam'
 long_description 'Installs/Configures openam'
-version '0.1.0'
+version '0.1.1'
+
+depends 'tomcat', '~> 2.3.2'
+depends 'java',   '~> 1.42.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
@@ -13,3 +16,5 @@ version '0.1.0'
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Source` link
 # source_url 'https://github.com/<insert_org_here>/openam' if respond_to?(:source_url)
+#
+
