@@ -8,6 +8,7 @@ version '0.1.1'
 
 depends 'tomcat', '~> 2.3.2'
 depends 'java',   '~> 1.42.0'
+depends 'aws' ,   '~> 4.1.2'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
