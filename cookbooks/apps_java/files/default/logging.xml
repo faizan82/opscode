@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+
+	<logger name="com.pearson" additivity="false" level="${com.pearson.platform.level}">
+		<appender-ref ref="FILE" />
+	</logger>
+	
+	<logger name="org.springframework" additivity="false" level="${org.springframework.level}">
+		<appender-ref ref="FILE" />
+	</logger>
+	
+	<root level="${root.level}">
+	   	<appender-ref ref="FILE" />
+	</root>
+		
+</included>
